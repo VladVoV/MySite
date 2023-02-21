@@ -1,0 +1,30 @@
+.We-container{
+    text-align: center;
+
+}
+.We-hteg{
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5vw;
+    line-height: 6vw;
+    letter-spacing: -0.025em;
+    color: #000000;
+
+}
+.we-photos{
+    display: flex;
+    list-style-type: none;
+}
+.we-photos>li>img{
+    width: 95%;
+}
+.we-photos>li>div{
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    letter-spacing: -0.025em;
+    color: #000000;
+}

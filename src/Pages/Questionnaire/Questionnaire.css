@@ -1,0 +1,70 @@
+.questionnaire-container {
+    padding-top: 7%;
+    width: 30%;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.questionnaire-container>input{
+    margin-top: 4%;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: black;
+    width: 372px;
+    height: 43px;
+    background: rgba(57, 62, 70, 0.1);
+    border: 2px solid #222831;
+    border-radius: 5px;
+}
+.questionnaire-checkbox{
+    text-align: left;
+    margin: 4% 7%;
+    width: 130%;
+}
+.questionnaire-htag{
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: -0.025em;
+    color: #000000;
+
+}
+.questionnaire-checkbox{
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+.questionnaire-text{
+    margin: 3% 8%;
+    text-align: left;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.questionnaire-button{
+    margin-top: 4%;
+    width: 372px;
+    height: 43px;
+    background: #393E46;
+    border: 2px solid #222831;
+    border-radius: 20px;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+}

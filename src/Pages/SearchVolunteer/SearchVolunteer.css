@@ -1,0 +1,36 @@
+.search-volunteer-container{
+    padding-top: 7%;
+    width: 30%;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+#aboutOrganization{
+}
+#aboutOrganization::target-text{
+}
+.search-volunteer-container>input, .search-volunteer-container>textarea{
+    margin-top: 4%;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: black;
+    width: 372px;
+
+    background: rgba(57, 62, 70, 0.1);
+    border: 2px solid #222831;
+    border-radius: 5px;
+}
+.search-volunteer-container{
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: -0.025em;
+    color: #000000;
+
+}

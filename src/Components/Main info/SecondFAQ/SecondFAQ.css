@@ -1,0 +1,105 @@
+.secondFAQ-container-first{
+    position: relative;
+}
+.secondFAQ-img-first{
+    position: absolute;
+    width: 100%;
+    z-index: -5;
+}
+.secondFAQ-head-first{
+    margin-left: 8%;
+    margin-bottom: 1%;
+    padding-top: 1%;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6vw;
+    line-height: 7.5vw;
+    letter-spacing: -0.025em;
+    color: #EEEEEE;
+}
+.secondFAQ-text-first{
+    width: 80%;
+    margin-left: 8%;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5vw;
+    line-height: 3.5vw;
+    letter-spacing: -0.025em;
+    color: #EEEEEE;
+}
+.secondFAQ-container-first>a>button{
+    margin-top: 2%;
+    margin-left: 35%;
+    background: transparent;
+    gap: 10px;
+    width: 23vw;
+    height: 7vw;
+    border: 5px solid #EEEEEE;
+    border-radius: 100px;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2vw;
+    line-height: 2vw;
+    color: #EEEEEE;
+    cursor: pointer;
+}
+.secondFAQ-container-second{
+    position: relative;
+}
+.secondFAQ-img-second{
+    z-index: -4;
+    position: absolute;
+    margin-top: 4%;
+    right: 0.1%;
+    width: 57%;
+}
+.secondFAQ-vector-second{
+    z-index: -3;
+    margin-top: 4%;
+    position: absolute;
+    width: 84.35%;
+}
+.secondFAQ-head-second{
+    padding-top: 4%;
+}
+.secondFAQ-head-second{
+    margin-left: 5%;
+    margin-bottom: 0.5%;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6vw;
+    line-height: 7.5vw;
+    letter-spacing: -0.025em;
+    color: #EEEEEE;
+}
+.secondFAQ-text-second{
+    margin-left: 5%;
+    width: 43%;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5vw;
+    line-height: 3.45vw;
+    letter-spacing: -0.025em;
+    color: #EEEEEE;
+}
+.secondFAQ-container-second>a>button{
+    cursor: pointer;
+    margin-left: 35%;
+    background-color: transparent;
+    gap: 10px;
+    width: 23vw;
+    height: 7vw;
+    border: 5px solid #EEEEEE;
+    border-radius: 100px;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2vw;
+    line-height: 2vw;
+    color: #EEEEEE;
+}

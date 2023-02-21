@@ -1,0 +1,39 @@
+.login-form{
+    padding-top: 7%;
+    width: 30%;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.login-header{
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: -0.025em;
+    color: #000000;
+}
+.login-input-container>input{
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 5% 0;
+
+    color: black;
+    width: 372px;
+    height: 43px;
+    background: rgba(57, 62, 70, 0.1);
+    border: 2px solid #222831;
+    border-radius: 5px;
+}
+.login-form>form>button{
+    margin: 3% 0;
+}
+.login-error {
+    font-family: 'Roboto', serif;
+    color: red;
+    font-size: 16px;
+}

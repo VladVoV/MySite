@@ -1,0 +1,50 @@
+.container-WhyVolunteer{
+    position: relative;
+    display: flex;
+}
+.container-WhyVolunteer>img{
+    width: 50%;
+    height: 50%;
+    margin-left: 5%;
+}
+.WhyVolunteer-text{
+    position: relative;
+    width: 45%;
+    padding: 0 5% 0;
+}
+.WhyVolunteer-text>div:first-child{
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5vw;
+    line-height: 3.5vw;
+    text-align: center;
+    color: #000000;
+}
+.WhyVolunteer-text>div:last-child{
+    width: 80%;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2vw;
+    line-height: 3.2vw;
+    color: #000000;
+    margin-top: 3%;
+    padding-left: 7%;
+}
+.WhyVolunteer-text>img{
+    position: absolute;
+}
+.question-big{
+    width: 70%;
+    top:40%;
+}
+.question-medium{
+    width: 40%;
+    left: 55%;
+    top:3%;
+}
+.question-small{
+    width: 22%;
+    top:17%;
+}

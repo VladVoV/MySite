@@ -1,0 +1,64 @@
+.registration-container{
+    padding-top: 7%;
+    width: 30%;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.registration-container1{
+    text-align: center;
+}
+.registration-container>input{
+    margin-top: 4%;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: black;
+    width: 372px;
+    height: 43px;
+    background: rgba(57, 62, 70, 0.1);
+    border: 2px solid #222831;
+    border-radius: 5px;
+}
+.registration-container>input::placeholder{
+    padding-left: 3%;
+}
+.registration-button{
+    width: 372px;
+    height: 43px;
+    background: #393E46;
+    border: 2px solid #222831;
+    border-radius: 20px;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.login-button{
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #000000;
+    background: transparent;
+    width: 372px;
+    height: 43px;
+    border: 2px solid #222831;
+    border-radius: 20px;
+}
+.registration-container:first-child{
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: -0.025em;
+    color: #000000;
+
+}

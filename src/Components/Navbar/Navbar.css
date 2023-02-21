@@ -1,0 +1,114 @@
+#navBar{
+    position: fixed;
+    background-color: #222831;
+    height: 68px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+.logo{
+    position: relative;
+    display: inline;
+    width: 190px;
+    margin-left: 7%;
+    z-index: 0;
+}
+.logo>a:first-child{
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 35px;
+}
+.container{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.3em;
+    line-height: 28px;
+    width: 50%;
+}
+.container>div{
+    cursor: pointer;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.authorize{
+    display: flex;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.1em;
+    line-height: 35px;
+    color: #ffffff;
+    margin-right: 8.5%;
+}
+.authorize>a{
+    text-decoration: none;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.2em;
+    line-height: 35px;
+    color: #ffffff;
+    margin: 0 10%;
+
+}
+.authorize>a>div{
+    cursor: pointer;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.logo>a>img{
+    position: absolute;
+    left:50%;
+    bottom: -20%;
+    z-index: -1;
+}
+.projects{
+    display: inline;
+    position: relative;
+}
+.projects>img{
+    position: absolute;
+    top:35%;
+    left: 107%;
+}
+.container-lastChild{
+    padding-left: 2%;
+}
+.project-menu{
+    left:41.5%;
+    top:120%;
+    position: absolute;
+    width: 300px;
+    height: 480px;
+    background-color: #222831;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #EEEEEE;
+}
+.project-menu>div{
+    margin-left: 5%;
+    margin-top: 9.5%;
+}
+.project-menu-link{
+    color: #EEEEEE;
+    text-decoration: none;
+}
+.project-menu>a>div{
+    margin-left: 5%;
+    margin-top: 9.5%;
+}
